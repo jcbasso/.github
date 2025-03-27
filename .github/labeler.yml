@@ -1,8 +1,0 @@
-feature:
-  - branch: ['feature/*'] # Glob pattern
-fix:
-  - branch: ['fix/*', 'bugfix/*', 'hotfix/*']
-docs:
-  - branch: ['docs/*'] # Assuming you want this based on your categories
-dependencies:
-  - changed-files: ['go.mod', 'go.sum']
